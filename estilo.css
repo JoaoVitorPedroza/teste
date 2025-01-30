@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+  }
+  header{
+    color: white;
+    text-align: center;
+  }
+  section{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.363);
+  }
+  div{
+    text-align: center;
+    padding: 8px;
+  }
+  footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+  }
+  #res {
+    position: relative; /* Elemento pai com posicionamento relativo */
+    width: 500px; /* Largura fixa */
+    height: 500px; /* Altura fixa */
+  }
+  
+  #foto {
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    height: 100%; /* Ocupa toda a altura do contêiner */
+    object-fit: contain; /* Mantém a proporção da imagem e a centraliza */
+  }
